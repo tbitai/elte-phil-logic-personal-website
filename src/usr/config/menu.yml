@@ -1,0 +1,5 @@
+- name: About me,     url: /index.html
+- name: Publications, url: /publications.html
+- name: Subdirectory, url: /subdirectory/index.html
+- name: Raw,          url: /raw.html
+- name: With meta,    url: /with-meta.html

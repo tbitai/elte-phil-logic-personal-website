@@ -1,0 +1,7 @@
+[parse_convert]
+md      markdown
+
+[ignore]
+*.swp
+*.yml
+*.tpl
