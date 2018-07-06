@@ -65,8 +65,8 @@ function menu(server, root,    template, data, items, item, key, parts, m,
     m = parts[1];
     
     # Loop and bind data.
-    name_re = "\\{\\$item\\.name\\}";
-    url_re = "\\{\\$item\\.url\\}";
+    name_re = @/\{\$item\.name\}/;
+    url_re = @/\{\$item\.url\}/;
     for (i = 1; i in data; i++)
         m = m gensub(name_re, data[i]["name"], "g",
                      gensub(url_re, root data[i]["url"], "g", parts[2]));

@@ -6,29 +6,22 @@
 
 Install requirements:
 
-- GNU AWK
+- GNU AWK 4.2
 
-  Make sure your `awk` is GNU AWK. This can be achieved by installing the `gawk` 
-  package. E.g. on Ubuntu:
-
-  ```
-  $ sudo apt update
-  $ sudo apt install gawk
-  ```
-  
-  Check that `awk` now links to `gawk`:
+  Make sure your `awk` is the GNU AWK (`gawk`) implementation, and you have 
+  version 4.2. You can check these with the following command:
   
   ```
-  $ which awk
-  /usr/bin/awk
-  $ ls -l /usr/bin/awk
-  lrwxrwxrwx 1 root root 21 febr  10 10:21 /usr/bin/awk -> /etc/alternatives/awk
-  $ ls -l /etc/alternatives/awk
-  lrwxrwxrwx 1 root root 13 máj   21 13:27 /etc/alternatives/awk -> /usr/bin/gawk
+  $ awk --version | head -n 1
+  GNU Awk 4.2.1, API: 2.0
   ```
   
-  Note that in the end of the link chain, the filename is `gawk`; this is what 
-  we need. 
+  If you have another AWK implementation or an earlier version of `gawk`, 
+  install the latest patch version of `gawk` 4.2 (as of Jul 6, 2018, that's 
+  4.2.1). As of Jul 6, 2018, the Ubuntu `gawk` package provides an earlier 
+  version, so if you're on Ubuntu, you have to 
+  [install `gawk` manually](https://www.gnu.org/software/gawk/manual/html_node/Installation.html) 
+  (don't worry, it's easy, and explained in detail in the above link).
   
 - [Zodiac](http://nu-ex.com/projects/zodiac.html) at the commit on Jan 4, 2017
 

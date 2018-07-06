@@ -1,4 +1,10 @@
+# CDN
 /cdn/node_modules
 /cdn/dist
 
+# Testing
 /site
+
+# ctags
+tags
+TAGS
