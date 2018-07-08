@@ -40,7 +40,7 @@ function yaml_load_map(yaml, map,    items, i, kv) {
     }
 }
 
-function yaml_load_seq(yaml, seq,    items, i) {
+function yaml_load_seq(yaml, seq,    i) {
     delete seq;
     split(yaml, seq, /\n/);
     for (i in seq) {
