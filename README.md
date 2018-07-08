@@ -23,7 +23,7 @@ Install requirements:
   [install `gawk` manually](https://www.gnu.org/software/gawk/manual/html_node/Installation.html) 
   (don't worry, it's easy, and explained in detail in the above link).
   
-- [Zodiac](http://nu-ex.com/projects/zodiac.html) at the commit on Jan 4, 2017
+- Zodiac at the commit on Jan 4, 2017
 
   Download and extract [ZIP](https://github.com/nuex/zodiac/archive/7515f68a8d8f2f0345c80874b34eeedddd3407da.zip).
   
@@ -33,7 +33,7 @@ Install requirements:
   $ sudo make install
   ```
   
-- [Markdown](https://daringfireball.net/projects/markdown/)
+- Markdown
 
   Install the package providing `markdown`, e.g. on Ubuntu:
 
@@ -45,12 +45,11 @@ Install requirements:
 Once you have installed the requirements, get the builder software itself: 
 download and extract this [ZIP](https://github.com/tbitai/elte-phil-logic-personal-website/archive/v0.1.0.zip).
 
-### Setup
-
-Create a project directory for your website and copy the `Makefile` and the `src` 
-directory from the builder into it. Make sure you also copy the `src/.zod` 
-subdirectory, which starts with a `.`, hence it's left out by default from some 
-copy methods. Now your project directory should look like this:
+Create a project directory for your website (say, `elte-phil-logic-doe-website`) 
+and copy the `Makefile` and the `src` directory from the builder into it. Make 
+sure you also copy the `src/.zod` subdirectory, which starts with a `.`, hence 
+it's left out by default from some copy methods. Now your project directory 
+should look like this:
 
 ```
 elte-phil-logic-doe-website
@@ -76,6 +75,12 @@ elte-phil-logic-doe-website
         └── config
 ```
 
+You created a [Zodiac](https://github.com/nuex/zodiac) project directory, with a 
+codified way of calling Zodiac in the `Makefile`, and a prepopulated source 
+directory `src`. The `src/usr` directory is the place of your personal content. 
+Don't modify the outer part of `src` or the `Makefile` (except of course if you 
+want to contribute to this builder software, to which you are very welcome!).
+
 ### Edit sources
 
 Edit the example files in `src/usr`:
@@ -85,9 +90,12 @@ Edit the example files in `src/usr`:
 
 - `config/menu.yml`: Data for the menu items. Ordered.
 
-- `*.md` and `*.html` files: Sources for the pages of your website.
+- `*.md` and `*.html` files: Sources for the pages of your website. You can write 
+  your sources in [Markdown](https://daringfireball.net/projects/markdown/) or 
+  raw HTML.
 
-- `*.meta` files: Optional metadata for the page source with the same filename.
+- `*.meta` files: Optional metadata for the page source with the same filename. 
+  See `with-meta.md` and `with-meta.meta` for an example.
 
 ### Build
 
