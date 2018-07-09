@@ -122,4 +122,4 @@ Build with `LOCAL_CDN=1`.
 
 ### Bump version
 
-Update version in `src/builder.yml` and readme download link.
+Update version in `src/builder.yml`, readme download link and `_config.yml`.
