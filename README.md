@@ -79,7 +79,8 @@ You created a [Zodiac](https://github.com/nuex/zodiac) project directory, with a
 codified way of calling Zodiac in the `Makefile`, and a prepopulated source 
 directory `src`. The `src/usr` directory is the place of your personal content. 
 Don't modify the outer part of `src` or the `Makefile` (except of course if you 
-want to contribute to this builder software, to which you are very welcome!).
+want to [contribute](https://github.com/tbitai/elte-phil-logic-personal-website) 
+to this builder software, to which you are very welcome!).
 
 ### Edit sources
 
