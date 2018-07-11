@@ -1,4 +1,4 @@
-# Personal website builder for the Department of Logic, Eötvös University (ELTE)
+# Personal website builder for the Department of Logic, Institute of Philosophy, Eötvös University (ELTE)
 
 ## Usage
 
@@ -25,7 +25,8 @@ Install requirements:
   
 - Zodiac at the commit on Jan 4, 2017
 
-  Download and extract [ZIP](https://github.com/nuex/zodiac/archive/7515f68a8d8f2f0345c80874b34eeedddd3407da.zip).
+  Download and extract [ZIP](https://github.com/nuex/zodiac/archive/7515f68a8d8f2f0345c80874b34eeedddd3407da.zip) 
+  or [Gzipped tarball](https://github.com/nuex/zodiac/archive/7515f68a8d8f2f0345c80874b34eeedddd3407da.tar.gz).
   
   Install Zodiac: `cd` to the Zodiac directory, and run
 
@@ -43,7 +44,8 @@ Install requirements:
   ```
 
 Once you have installed the requirements, get the builder software itself: 
-download and extract this [ZIP](https://github.com/tbitai/elte-phil-logic-personal-website/archive/v0.1.0.zip).
+download and extract [ZIP](https://github.com/tbitai/elte-phil-logic-personal-website/archive/v0.1.0.zip) 
+or [Gzipped tarball](https://github.com/tbitai/elte-phil-logic-personal-website/archive/v0.1.0.tar.gz).
 
 Create a project directory for your website (say, `elte-phil-logic-doe-website`) 
 and copy the `Makefile` and the `src` directory from the builder into it. Make 
@@ -122,4 +124,4 @@ Build with `LOCAL_CDN=1`.
 
 ### Bump version
 
-Update version in `src/builder.yml`, readme download link and `_config.yml`.
+Update version in `src/builder.yml`, readme download link and `docs/_config.yml`.
