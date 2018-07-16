@@ -89,7 +89,7 @@ to this builder software, to which you are very welcome!).
 See the [changelog](CHANGELOG) about new releases.
 
 You can upgrade by changing every file in your project directory that came from 
-the builder (that is, everything except `src/usr` to files from the newer release.
+the builder (that is, everything except `src/usr`) to files from the newer release.
 
 ### Edit sources
 
