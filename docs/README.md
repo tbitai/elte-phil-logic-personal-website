@@ -84,6 +84,13 @@ Don't modify the outer part of `src` or the `Makefile` (except of course if you
 want to [contribute](https://github.com/tbitai/elte-phil-logic-personal-website) 
 to this builder software, to which you are very welcome!).
 
+### Upgrade
+
+See the [changelog](CHANGELOG) about new releases.
+
+You can upgrade by changing every file in your project directory that came from 
+the builder (that is, everything except `src/usr` to files from the newer release.
+
 ### Edit sources
 
 Edit the example files in `src/usr`:
