@@ -1,5 +1,11 @@
 # Personal website builder for the Department of Logic, Institute of Philosophy, Eötvös University (ELTE)
 
+This project provides a template for personal websites at the 
+[Department of Logic, Institute of Philosophy, Eötvös University (ELTE)](http://phil.elte.hu/logic).
+Menu, header, footer etc. will be generated for you by [Zodiac](https://github.com/nuex/zodiac), 
+so you can focus on writing your content, which you can do in [Markdown](https://daringfireball.net/projects/markdown/) 
+or raw HTML.
+
 ## Usage
 
 ### Install
