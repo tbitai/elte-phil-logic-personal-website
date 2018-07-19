@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="{{cdn}}/{{builder}}@{{builder_version}}/img/L.png">
+    <link rel="icon" type="image/png" href="{{cdn}}/{{builder}}@{{builder_version}}/img/L.png">
     <link rel="stylesheet" href="{{cdn}}/purecss@1.0.0/build/pure-min.css">
     <link rel="stylesheet" href="{{cdn}}/{{builder}}@{{builder_version}}/stylesheets/main.css">
     <title>Department of Logic – {{name}}</title>
