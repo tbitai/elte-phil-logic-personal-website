@@ -9,3 +9,6 @@
 # ctags
 tags
 TAGS
+
+# IDEs
+*.swp
