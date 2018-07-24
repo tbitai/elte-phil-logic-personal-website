@@ -13,7 +13,18 @@
 <body>
 
 <header>
-<h1>{{name}}</h1>
+<div class="dept-header">
+  <h1 class="dept">
+    <span class="dept-of">Department of</span> <br>
+    Logic
+  </h1>
+  <h2 class="dept-inst-tree">
+    Eötvös University, Budapest <br>
+    Faculty of Humanities <br>
+    Institute of Philosophy
+  </h2>
+</div>
+<h3>{{name}}</h3>
 {{menu}}
 </header>
 

@@ -1,3 +1,81 @@
-header h1 {
+body {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Native font stack, copied from 
+     * https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/ */
+    font-family: -apple-system, BlinkMacSystemFont,  /* OS X / iOS */
+                 "Segoe UI",                         /* Windows */
+                 "Roboto",                           /* Android */
+                 "Oxygen", "Ubuntu", "Cantarell",    /* KDE, Ubuntu, GNOME */
+                 "Fira Sans",                        /* Firefox OS */
+                 "Droid Sans",                       /* Old Android */
+                 "Helvetica Neue", sans-serif;       /* Fallbacks */
+
+    /* Bootstrap 4.1 default black. */
+    color: #212529;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+/* Header */
+@font-face {
+    font-family: 'URW Gothic L Book';
+    src: url('../fonts/urw-gothic-l-book.woff2') format('woff2'),
+         url('../fonts/urw-gothic-l-book.woff') format('woff'),
+         url('../fonts/urw-gothic-l-book.ttf') format('truetype');
+}
+header h1, header h2 {
+    font-weight: normal;
+}
+header h3 {
+    font-weight: bold;
+}
+header h1, header h2, header h3 {
     text-transform: uppercase;
+    font-family: "URW Gothic L Book";
+}
+.dept-of {
+    text-transform: none;
+    font-size: 0.5em;
+}
+header h3 {
+    text-transform: none;
+    font-size: 1.5em;
+}
+.dept-inst-tree {
+    font-size: 1em;
+}
+.dept-header {
+    background: #777;
+    color: white;
+}
+.dept-header h1, .dept-header h2 {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+header nav {
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.pure-menu-horizontal {
+    white-space: normal;
+}
+
+/* Even paddings */
+.dept-header {
+    padding-left: 1em;
+}
+header h3 {
+    padding-left: 0.66em;
+}
+header nav {
+    padding-left: 0.2em;
+}
+main {
+    padding: 1em;
+    padding-top: 0;
 }
